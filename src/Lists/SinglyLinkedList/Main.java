@@ -23,6 +23,12 @@ public class Main {
 
         list.printList();
 
+        System.out.println("--------- REMOVE ----------");
+
+        list.removeFromFront();
+        System.out.println(list.getSize());
+        list.printList();
+
     }
 }
 
